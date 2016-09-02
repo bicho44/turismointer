@@ -11,7 +11,6 @@
 
 ?>
 
-	</div><!-- #content -->
 
 	<div class="wrapfooter">
 		<footer id="colophon" class="site-footer" role="contentinfo">
@@ -26,7 +25,6 @@
 				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'turismointer' ), 'turismointer', '<a href="http://imgdigital.com.ar" rel="designer">Federico Reinoso</a>' ); ?>
 			</div><!-- .site-info -->
 	</div> <!-- #wrapfooter -->
-	<!--</div><!-- #page -->
 
 <?php wp_footer(); ?>
 

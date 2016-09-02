@@ -29,11 +29,9 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
-
 		</main><!-- #main -->
-		get_sidebar();
+		<?php get_sidebar(); ?>
 	</div><!-- #primary -->
 
 <?php
-
 get_footer();

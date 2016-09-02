@@ -6561,7 +6561,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   left: 0;
   z-index: 500;
 }
-.site-content {
+.content-area {
   margin-top: 90px;
 }
 .navbar-brand {
@@ -6569,6 +6569,9 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 .image-thumbnail {
   margin-bottom: 20px;
+}
+article.entry-header {
+  color: #222222;
 }
 .well {
   color: #fff;
