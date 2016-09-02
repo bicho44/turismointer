@@ -18,7 +18,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #222222;
-  background-color: #020202;
+  background-color: #fff;
 }
 input,
 button,
@@ -58,7 +58,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #020202;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -959,7 +959,7 @@ th {
   border-top: 2px solid #ddd;
 }
 .table .table {
-  background-color: #020202;
+  background-color: #fff;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -1200,14 +1200,14 @@ animation:         KEYFRAME-NAME 5s infinite;
   margin-bottom: 20px;
 }
 .well {
-  color: #020202;
+  color: #fff;
   font-size: 12px;
 }
 .modal {
-  color: #020202;
+  color: #fff;
 }
 .modal h4 {
-  color: #020202;
+  color: #fff;
 }
 .wrapfooter {
   background-color: #333333;
