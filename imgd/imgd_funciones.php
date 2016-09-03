@@ -47,6 +47,14 @@ function imgdigital_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'imgdigital_scripts' );
 
+/* Google Fonts */
+function wpb_add_google_fonts() {
+	wp_enqueue_style( 'wpb-google-fonts', '//fonts.googleapis.com/css?family=Italianno|Open+Sans+Condensed:300,700', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
+
 /** Definir el largo de los excerpt */
 define('POST_EXCERPT_LENGTH', 55);
 /** Enable to load jQuery from the Google CDN */
@@ -63,7 +71,7 @@ function imgd_theme_add_editor_styles() {
 add_action( 'admin_init', 'imgd_theme_add_editor_styles' );
 
 function imgd_theme_add_font_editor_styles() {
-    $font_url = str_replace( ',', '%2C', '//fonts.googleapis.com/css?family=Lato:400,700,900' );
+    $font_url = str_replace( ',', '%2C', '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');//fonts.googleapis.com/css?family=Open:400,700,900'' );
     add_editor_style( $font_url );
 
     /*$font_url2 = str_replace( ',', '%2C', '//fonts.googleapis.com/css?family=Open+Sans:400,300,600' );
@@ -241,9 +249,9 @@ add_shortcode('imgdpost','imgd_custompost');
  * @return string
  */
 function thumbnail_extra($postID) {
-    
+
     $thumb = "http://lorempixel.com/gray/253/132/abstract/0/No Thumbnail";
-    
+
     if (!$postID) {
         $postID = get_the_ID();
     }
@@ -258,7 +266,7 @@ function thumbnail_extra($postID) {
         $imagepath = $imagepieces[1];
         $thumb = wp_get_attachment_thumb_url($num);
       endif;
-      
+
     return $thumb;
 }
 

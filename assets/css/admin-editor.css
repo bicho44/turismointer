@@ -111,10 +111,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
   line-height: 1.2;
-  color: #fff;
+  color: #222222;
 }
 h1 small,
 h2 small,
@@ -1185,7 +1185,7 @@ animation:         KEYFRAME-NAME 5s infinite;
 }*/
 .site-header {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 0;
   left: 0;
   z-index: 500;
@@ -1198,9 +1198,6 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 .image-thumbnail {
   margin-bottom: 20px;
-}
-article.entry-header {
-  color: #222222;
 }
 .well {
   color: #fff;
@@ -1215,6 +1212,17 @@ article.entry-header {
 .wrapfooter {
   background-color: #333333;
   padding: 20px 0;
+  border-top: 5px solid #2e5f55;
+}
+.wrapfooter:before {
+  background-image: url('../images/linea-pie.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: Italianno;
+  font-size: 30px;
+  text-align: right;
+  content: 'Paises con la misma esencia';
+  color: #fff;
 }
 .wrapfooter .site-footer {
   color: #fff;

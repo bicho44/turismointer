@@ -68,9 +68,20 @@
 @link-hover-color:      darken(@link-color, 20%);
 
 //== Typography
-//
+@font-Alternativa: 'Open Sans Condensed', sans-serif;
+@font-Decorativa: 'Italianno', cursive;
+
 //## Font, line-height, and color for body text, headings, and more.
-@font-texto: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-texto: @font-family-sans-serif;
+
+
+
+
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+
 
 @font-family-base:        @font-texto;
 
@@ -85,7 +96,7 @@
 @navbar-collapse-max-height:       340px;
 
 @navbar-default-color:             #fff;
-@navbar-default-bg:                @gray-darker;
+@navbar-default-bg:                fade(@gray-darker, 70);
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
@@ -109,10 +120,10 @@
 
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    @font-texto;
-@headings-font-weight:    700;
+@headings-font-family:    @font-Alternativa;
+@headings-font-weight:    300;
 @headings-line-height:    1.2;
-@headings-color:          #fff;
+@headings-color:          @gray-darker;
 
 //== Dropdowns
 //

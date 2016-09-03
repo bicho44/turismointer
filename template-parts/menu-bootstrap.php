@@ -8,9 +8,9 @@
  * Date: 06
  */
 ?>
-<div class="container">
-<nav class="navbar navbar-default navbar-static-top">
-	<!--<div class="container">-->
+<!-- <div class="container"> -->
+<nav class="navbar navbar-default ">
+	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -45,6 +45,6 @@
 
 		</div> <!-- /.navbar-collapse -->
 
-		<!--</div> /.container -->
+	</div> <!--/.container
 </nav>
-</div>
+<!-- </div> -->

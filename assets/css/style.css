@@ -2036,10 +2036,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
   line-height: 1.2;
-  color: #fff;
+  color: #222222;
 }
 h1 small,
 h2 small,
@@ -4322,7 +4322,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #222222;
+  background-color: rgba(34, 34, 34, 0.7);
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -4954,8 +4954,8 @@ tbody.collapse.in {
   }
 }
 .navbar-default {
-  background-color: #222222;
-  border-color: #121212;
+  background-color: rgba(34, 34, 34, 0.7);
+  border-color: rgba(18, 18, 18, 0.7);
 }
 .navbar-default .navbar-brand {
   color: #fff;
@@ -4980,7 +4980,7 @@ tbody.collapse.in {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #2e5f55;
-  background-color: #121212;
+  background-color: rgba(18, 18, 18, 0.7);
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4996,16 +4996,16 @@ tbody.collapse.in {
   background-color: #4fa492;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #121212;
+  background-color: rgba(18, 18, 18, 0.7);
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #121212;
+  border-color: rgba(18, 18, 18, 0.7);
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #121212;
+  background-color: rgba(18, 18, 18, 0.7);
   color: #2e5f55;
 }
 @media (max-width: 767px) {
@@ -5021,7 +5021,7 @@ tbody.collapse.in {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #2e5f55;
-    background-color: #121212;
+    background-color: rgba(18, 18, 18, 0.7);
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -6556,7 +6556,7 @@ animation:         KEYFRAME-NAME 5s infinite;
 }*/
 .site-header {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 0;
   left: 0;
   z-index: 500;
@@ -6569,9 +6569,6 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 .image-thumbnail {
   margin-bottom: 20px;
-}
-article.entry-header {
-  color: #222222;
 }
 .well {
   color: #fff;
@@ -6586,6 +6583,17 @@ article.entry-header {
 .wrapfooter {
   background-color: #333333;
   padding: 20px 0;
+  border-top: 5px solid #2e5f55;
+}
+.wrapfooter:before {
+  background-image: url('../images/linea-pie.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: Italianno;
+  font-size: 30px;
+  text-align: right;
+  content: 'Paises con la misma esencia';
+  color: #fff;
 }
 .wrapfooter .site-footer {
   color: #fff;
