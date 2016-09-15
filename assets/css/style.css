@@ -6482,16 +6482,16 @@ animation:         KEYFRAME-NAME 5s infinite;
   background-color: #333333;
   padding: 20px 0;
   border-top: 5px solid #2e5f55;
-}
-.wrapfooter:before {
-  background-image: url('../images/linea-pie.png');
-  background-repeat: no-repeat;
-  width: 100%;
-  font-family: Italianno;
-  font-size: 30px;
-  text-align: right;
-  content: 'Paises con la misma esencia';
-  color: #fff;
+  /*&:before {
+    background-image: url('../images/linea-pie.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: Italianno;
+    font-size: 30px;
+    text-align: right;
+    content: 'Paises con la misma esencia';
+    color: @white;
+  }*/
 }
 .wrapfooter .site-footer {
   color: #fff;
