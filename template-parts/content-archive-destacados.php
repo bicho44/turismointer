@@ -44,9 +44,9 @@ $notitle = get_post_meta(get_the_ID(), 'imgd_sin_titulo', true);
 //echo var_dump($notitle);
 
 if ($notitle !== '0' ) { ?>
-    <header class="destaddos-caption">
+    <header class="destacados-caption">
         <?php
-        get_the_terms();
+        //get_the_terms(get_the_ID());
         the_title(sprintf('<h3><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h3>');
         imgd_content(35);
         ?>
