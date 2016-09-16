@@ -15,6 +15,8 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area container">
+
+		<?php get_sidebar(); ?>
 		<main id="main" class="site-main col-md-8" role="main">
 
 			<?php
@@ -30,7 +32,6 @@ get_header(); ?>
 			endwhile; // End of the loop.
 			?>
 		</main><!-- #main -->
-		<?php get_sidebar(); ?>
 	</div><!-- #primary -->
 
 <?php
