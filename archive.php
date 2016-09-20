@@ -13,7 +13,7 @@ get_header(); ?>
 		<?php
 		get_sidebar();
 		?>
-		<main id="main" class="site-main col-md-8" role="main">
+		<main id="main" class="site-main col-md-9" role="main">
 
 		<?php
 		if ( have_posts() ) : ?>
