@@ -15,14 +15,15 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area container">
-<div class="row">
+		<div class="row">
+
 		<?php get_sidebar(); ?>
 		<main id="main" class="site-main col-md-9" role="main">
 
 			<?php
 			while ( have_posts() ) : the_post();
 
-				get_template_part( 'template-parts/content', 'page' );
+				get_template_part( 'template-parts/content', 'imgd_programa' );
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :

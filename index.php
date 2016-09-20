@@ -15,7 +15,8 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area container">
-		<?php
+		<div class="row">
+			<?php
 		get_sidebar();
 		?>
 		<main id="main" class="site-main col-md-9" role="main">
@@ -52,7 +53,7 @@ get_header(); ?>
 		endif; ?>
 
 		</main><!-- #main -->
-
+</div>
 	</div><!-- #primary -->
 
 <?php

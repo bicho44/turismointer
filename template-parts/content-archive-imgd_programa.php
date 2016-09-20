@@ -17,26 +17,9 @@
     if (has_post_thumbnail()) {?>
 
       <a href="<?php the_permalink(); ?> ">
-
         <?php
-        $publiid = get_post_meta(get_the_ID(),'imgd_image_slideshow' ,true);
-
-        if ($publiid) {
-          //piklist::pre($publiid);
-          //foreach $publiid as $publi {
-
-          $image = get_post($publiid);
-
-          //piklist::pre($image);
-
-          echo '<img src="' . $image->guid . '" alt="' . $image->post_title . '" class="img-responsive"/>';
-          //}
-          //}
-
-        } else {
           /* @todo Cambiar para que la imagen sea responsive */
           the_post_thumbnail('thumb-archive');
-        }
         ?>
       </a>
       <?php }

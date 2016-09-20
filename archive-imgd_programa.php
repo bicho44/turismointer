@@ -10,6 +10,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area container">
+		<div class="row">
 		<?php
 		get_sidebar();
 		?>
@@ -48,6 +49,7 @@ get_header(); ?>
 		endif; ?>
 
 		</main><!-- #main -->
+		</div>
 	</div><!-- #primary -->
 
 <?php

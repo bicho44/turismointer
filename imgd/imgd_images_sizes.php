@@ -18,7 +18,6 @@ add_image_size('full-cropped', 1150, 480, true);
 add_image_size('header-cropped', 1150, 300, true);
 
 add_image_size('show-cropped', 340, 340, true);
-
 add_image_size('show-archive', 750, 200, true);
 
 /*add_image_size('tablet-v', 780, 400, true);
