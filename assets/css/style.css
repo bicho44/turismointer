@@ -1982,7 +1982,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: #222222;
@@ -6466,7 +6466,12 @@ animation:         KEYFRAME-NAME 5s infinite;
   margin-top: 0;
 }
 .content-area {
-  margin-top: 50px;
+  margin-top: 65px;
+}
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+  width: 50%;
 }
 .navbar-brand {
   padding: 10px 15px 0 15px;
@@ -6483,6 +6488,12 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 .modal h4 {
   color: #fff;
+}
+.widget-area {
+  padding-top: 30px;
+}
+.widget-title {
+  font-size: 18px;
 }
 .wrapfooter {
   background-color: #333333;

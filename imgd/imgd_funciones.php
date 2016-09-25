@@ -99,6 +99,8 @@ require get_template_directory() . '/imgd/imgd_child_pages.php';
 
 //require get_template_directory() . '/inc/imgd/imgd_it_exchange.php';
 
+require get_template_directory() . '/imgd/imgd_comment_bootstrap.php';
+
 
 /*
  * Remove todo lo que esté en el título de los Archivos
