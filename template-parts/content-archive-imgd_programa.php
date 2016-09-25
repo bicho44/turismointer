@@ -1,6 +1,6 @@
 <?php
 /**
-* Template part for displaying posts.
+* Template part para Mostrar los Programas
 *
 * @link https://codex.wordpress.org/Template_Hierarchy
 *
@@ -9,8 +9,7 @@
 
 ?>
 
-
-<div class="col-sm-6 col-md-3">
+<div class="col-sm-6 col-md-4">
   <div class="thumbnail">
     <?php
     // Must be inside a loop.

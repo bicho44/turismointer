@@ -11,9 +11,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area container">
 		<div class="row">
-		<?php
-		get_sidebar();
-		?>
+
 		<main id="main" class="site-main col-md-9" role="main">
 		<?php
 		if ( have_posts() ) : ?>
@@ -38,6 +36,7 @@ get_header(); ?>
 
 			endwhile;
 ?>
+
 </div>
 <?php
 			the_posts_navigation();
@@ -49,7 +48,10 @@ get_header(); ?>
 		endif; ?>
 
 		</main><!-- #main -->
-		</div>
+		<?php
+		get_sidebar();
+		?>
+	</div><!-- Row -->
 	</div><!-- #primary -->
 
 <?php
