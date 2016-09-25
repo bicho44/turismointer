@@ -4,11 +4,11 @@
  * Used for large feature (header) images.
  * $resolutions   = array(1200, 979, 767, 480);
  *
- * User: bicho44
- * Date: 26/08/13
- * Time: 12:05
+ * @User: bicho44
+ * @Date: 26/08/13
  *
  * @TODO Revisar como entregar la imagen en el tamaño correcto.
+ * @package: IMGD Framework
  */
 
 //1162x581.
@@ -101,6 +101,8 @@ function imgd_post_thumbnail_sizes_attr( $attr, $attachment, $size ) {
     return $attr;
 }
 add_filter( 'wp_get_attachment_image_attributes', 'imgd_post_thumbnail_sizes_attr', 10 , 3 );
+
+
 
 if(!function_exists('imgd_has_slideshow_thumbnail')) {
     /**

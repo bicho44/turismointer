@@ -1,4 +1,11 @@
 <?php
+/**
+* Reformatear el Formulario para los Cometarios para que use Bootstrap 3.x
+*
+* @link: http://www.codecheese.com/2013/11/wordpress-comment-form-with-twitter-bootstrap-3-supports/
+* @package IMD Framework
+*/
+
 add_filter( 'comment_form_default_fields', 'bootstrap3_comment_form_fields' );
 function bootstrap3_comment_form_fields( $fields ) {
     $commenter = wp_get_current_commenter();

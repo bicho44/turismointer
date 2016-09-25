@@ -1,6 +1,8 @@
 <?php
 /**
  * WordPress Bootstrap Pagination
+ * 
+ * @package: IMGD Framework
  */
 
 function wp_bootstrap_pagination( $args = array() ) {

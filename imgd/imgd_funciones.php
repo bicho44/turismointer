@@ -2,6 +2,7 @@
 
 /**
  * Jquery enqueue
+ * @package: IMGD Framework
  */
 // jQuery from Google's CDN, fallback to local if not available
 add_action('wp_enqueue_scripts', 'load_external_jQuery');
@@ -82,30 +83,31 @@ add_action( 'after_setup_theme', 'imgd_theme_add_font_editor_styles' );
 
 /**
  * Otros elementos para este tema
+ *
+ * @package: IMGD Framework
  */
-//require get_template_directory() . '/inc/meta-box/meta-box.php';// MetaBox functions
 require get_template_directory() . '/imgd/imgd_images_sizes.php';
-
-//require get_template_directory() . '/imgd/imgd_settings.php';
-
-//require get_template_directory() . '/inc/imgd/imgd_onepage_settings.php'; // Estas opciones estaban pensadas para el theme de onepagescroll
 require get_template_directory() . '/imgd/imgd_gallery.php';
 require get_template_directory() . '/imgd/imgd_nav.php';
-
-//require get_template_directory() . '/imgd/imgd_archive_order.php';
 require get_template_directory() . '/imgd/imgd_child_pages.php';
-//require get_template_directory() . '/imgd/imgd_widgets.php';
-//require get_template_directory() . '/imgd/imgd_pagination.php';
-
-//require get_template_directory() . '/inc/imgd/imgd_it_exchange.php';
-
 require get_template_directory() . '/imgd/imgd_comment_bootstrap.php';
 
+//require get_template_directory() . '/inc/meta-box/meta-box.php';// MetaBox functions
+//require get_template_directory() . '/imgd/imgd_widgets.php';
+//require get_template_directory() . '/imgd/imgd_pagination.php';
+//require get_template_directory() . '/inc/imgd/imgd_it_exchange.php';
+//require get_template_directory() . '/imgd/imgd_archive_order.php';
+//require get_template_directory() . '/imgd/imgd_settings.php';
+//require get_template_directory() . '/inc/imgd/imgd_onepage_settings.php'; // Estas opciones estaban pensadas para el theme de onepagescroll
 
-/*
- * Remove todo lo que esté en el título de los Archivos
+
+/**
+ * Remueve todo lo que esté en el título de los Archivos
+ *
  * Simply remove anything that looks like an archive
  * title prefix ("Archive:", "Foo:", "Bar:").
+ *
+ * @package: IMGD Framework
  */
 add_filter('get_the_archive_title', function ($title) {
     return preg_replace('/^\w+: /', '', $title);
@@ -113,6 +115,8 @@ add_filter('get_the_archive_title', function ($title) {
 
 /*
  * Remueve la palabra categoria
+ *
+ * @package:
  */
 add_filter( 'get_the_archive_title', function ( $title ) {
 

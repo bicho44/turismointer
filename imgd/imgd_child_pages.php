@@ -1,6 +1,8 @@
 <?php
-/*
+/**
  * Funciones para Obtener la dara de las páginas Hijas y devolverlas en TABS  de Bootstrap 3.x
+ *
+ * @package IMD Framework
  */
 
 /**
@@ -44,7 +46,7 @@ function imgd_child_pages($post_ID, $title="", $content=""){
     if ($parent->have_posts()) {
         $header .= ' <!-- Nav tabs -->';
         $header .= '<ul id="tabs-content" class="nav nav-tabs" role="tablist">';
-        
+
         $tabs .= '<!-- Tab panes --><div class="tab-content">';
 
         /* Verifico que tenga la Tab principal */
@@ -56,7 +58,7 @@ function imgd_child_pages($post_ID, $title="", $content=""){
             $tabs .= '</div>';
 
         }
-        
+
         while ($parent->have_posts()) : $parent->the_post();
             $header .= '<li><a href="#' . the_slug(get_the_ID()) . '" data-toggle="tab">' . get_the_title() . '</a></li>';
 
@@ -78,10 +80,9 @@ function imgd_child_pages($post_ID, $title="", $content=""){
 
 }
 
-
 /**
  * Funcion de Ayuda para Obtener el Slug, ya que no hay una en Wordpress
- * Source:http://www.wprecipes.com/wordpress-function-to-get-postpage-slug
+ * @link: http://www.wprecipes.com/wordpress-function-to-get-postpage-slug
  *
  * @param $post_ID
  * @return mixed

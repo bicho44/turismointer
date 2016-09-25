@@ -1,5 +1,9 @@
 <?php
-
+/**
+* Página de Settings para ser usado con Piklist
+*
+* @package: IMGD Framework
+*/
 
 add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
 function piklist_theme_setting_pages($pages)

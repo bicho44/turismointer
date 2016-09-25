@@ -6468,6 +6468,7 @@ animation:         KEYFRAME-NAME 5s infinite;
 .content-area {
   margin-top: 65px;
 }
+/** Comentarios */
 .comment-form-author,
 .comment-form-email,
 .comment-form-url {

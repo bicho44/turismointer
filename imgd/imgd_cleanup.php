@@ -1,5 +1,11 @@
 <?php
 /**
+* Varias funciones para Limpiar ciertas cosas básicas del Wordpress
+*
+* @package IMD Framework
+*/
+
+/**
  * Clean up wp_head()
  *
  * Remove unnecessary <link>'s

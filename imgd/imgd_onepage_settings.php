@@ -113,6 +113,7 @@ function tcx_sanitize_copyright( $input ) {
 
 /**
  * List of Pages
+ * @package: IMGD Framework
  */
 
 function imgd_list_pages(){
