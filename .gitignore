@@ -47,6 +47,6 @@ nbproject
 .idea
 node_modules
 dist
-*.codekit
+*codekit.*
 
 codekit-config.json

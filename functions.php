@@ -1,4 +1,11 @@
 <?php
+/* Google Fonts */
+function wpb_add_google_fonts() {
+	wp_enqueue_style( 'wpb-google-fonts', '//fonts.googleapis.com/css?family=Suez-One-Regular|Italianno|Open+Sans:300,700|Open+Sans+Condensed:300,700', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
 /**
  * Turismo InterOceánico functions and definitions.
  *
