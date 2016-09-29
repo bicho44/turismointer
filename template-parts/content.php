@@ -28,6 +28,11 @@
 
 	<div class="entry-content">
 		<?php
+			if (has_post_thumbnail()){
+				the_post_thumbnail('full-crop');
+			}
+		 ?>
+		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'turismointer' ), array( 'span' => array( 'class' => array() ) ) ),
