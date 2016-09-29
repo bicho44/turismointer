@@ -18,7 +18,7 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
-
+?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -45,7 +45,7 @@
 		<?php turismointer_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 
-	if ( 'post' === get_post_type() ) : ?>
+<?php	if ( 'post' === get_post_type() ) : ?>
 	<div class="entry-meta">
 		<?php turismointer_posted_on(); ?>
 	</div><!-- .entry-meta -->
