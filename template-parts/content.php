@@ -19,8 +19,6 @@
 		endif;
 
 
-		<?php
-		endif; ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -37,8 +35,8 @@
 			) );
 
 			wp_link_pages( array(
-				'before' => '<nav aria-label="Page navigation"><ul class="pager">' . esc_html__( 'Pages:', 'turismointer' ),
-				'after'  => '</ul></nav>',
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'turismointer' ),
+				'after'  => '</div>',
 			) );
 		?>
 	</div><!-- .entry-content -->
@@ -51,4 +49,6 @@
 	<div class="entry-meta">
 		<?php turismointer_posted_on(); ?>
 	</div><!-- .entry-meta -->
+	<?php
+	endif; ?>
 </article><!-- #post-## -->
