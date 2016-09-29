@@ -1183,7 +1183,7 @@ table th[class*="col-"] {
 -o-animation:      KEYFRAME-NAME 5s infinite;
 animation:         KEYFRAME-NAME 5s infinite;
 }*/
-img {
+.wp-post-image {
   display: block;
   max-width: 100%;
   height: auto;
