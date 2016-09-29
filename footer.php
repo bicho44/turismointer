@@ -14,7 +14,6 @@
 
 	<div class="wrapfooter">
 		<footer id="colophon" class="site-footer" role="contentinfo">
-
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4"><!-- Menu Social -->
@@ -25,11 +24,7 @@
 						</div>
 				</div>
 			</div>
-			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://imgdigital.com.ar/', 'turismointer' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'turismointer' ), 'WordPress' ); ?></a>
-				<span class="sep"> | </span>
-				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'turismointer' ), 'turismointer', '<a href="http://imgdigital.com.ar" rel="designer">Federico Reinoso</a>' ); ?>
-			</div><!-- .site-info -->
+		</footer>
 	</div> <!-- #wrapfooter -->
 
 <?php wp_footer(); ?>
