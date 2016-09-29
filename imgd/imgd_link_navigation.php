@@ -73,38 +73,28 @@ function bootstrap_wp_link_pages($wp_links){
 }
 
 
-// Bootstrap pagination function
+/**
+* Bootstrap pagination function
+* @link: https://gist.github.com/ebinnion/7635465
+*/
 
 function wp_bs_pagination($pages = '', $range = 4)
 
 {
 
      $showitems = ($range * 2) + 1;
-
-
-
      global $paged;
 
      if(empty($paged)) $paged = 1;
 
-
-
      if($pages == '')
-
      {
-
-         global $wp_query;
-
+    global $wp_query;
 		 $pages = $wp_query->max_num_pages;
-
          if(!$pages)
-
          {
-
              $pages = 1;
-
          }
-
      }
 
 

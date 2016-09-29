@@ -1183,6 +1183,11 @@ table th[class*="col-"] {
 -o-animation:      KEYFRAME-NAME 5s infinite;
 animation:         KEYFRAME-NAME 5s infinite;
 }*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .site-header {
   position: absolute;
   top: 10px;
