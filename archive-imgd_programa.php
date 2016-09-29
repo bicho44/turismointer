@@ -39,7 +39,13 @@ get_header(); ?>
 
 </div>
 <?php
-			the_posts_navigation();
+if (function_exists("wp_bs_pagination"))
+		{
+				 //wp_bs_pagination($the_query->max_num_pages);
+				 wp_bs_pagination();
+} else {
+	 the_posts_navigation();
+}
 
 		else :
 
