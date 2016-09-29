@@ -14,7 +14,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #222222;
@@ -1226,6 +1226,40 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 .widget-title {
   font-size: 18px;
+}
+.calendar-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.calendar-table > thead > tr > th,
+.calendar-table > tbody > tr > th,
+.calendar-table > tfoot > tr > th,
+.calendar-table > thead > tr > td,
+.calendar-table > tbody > tr > td,
+.calendar-table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.calendar-table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.calendar-table > caption + thead > tr:first-child > th,
+.calendar-table > colgroup + thead > tr:first-child > th,
+.calendar-table > thead:first-child > tr:first-child > th,
+.calendar-table > caption + thead > tr:first-child > td,
+.calendar-table > colgroup + thead > tr:first-child > td,
+.calendar-table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.calendar-table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.calendar-table .table {
+  background-color: #fff;
 }
 .wrapfooter {
   background-color: #333333;
