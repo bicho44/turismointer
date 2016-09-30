@@ -94,6 +94,8 @@ require get_template_directory() . '/imgd/imgd_link_navigation.php';
 //require get_template_directory() . '/inc/imgd/imgd_onepage_settings.php'; // Estas opciones estaban pensadas para el theme de onepagescroll
 
 
+
+
 /**
  * Remueve todo lo que esté en el título de los Archivos
  *
@@ -384,3 +386,40 @@ function cc_mime_types($mimes) {
     return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
+
+/**
+ * Get taxonomies terms links.
+ *
+ * @see get_object_taxonomies()
+ * @link: https://developer.wordpress.org/reference/functions/get_the_terms/
+ */
+function wpdocs_custom_taxonomies_terms_links() {
+    // Get post by post ID.
+    $post = get_post( $post->ID );
+
+    // Get post type by post.
+    $post_type = $post->post_type;
+
+    // Get post type taxonomies.
+    $taxonomies = get_object_taxonomies( $post_type, 'objects' );
+
+    $out = array();
+
+    foreach ( $taxonomies as $taxonomy_slug => $taxonomy ){
+
+        // Get the terms related to post.
+        $terms = get_the_terms( $post->ID, $taxonomy_slug );
+
+        if ( ! empty( $terms ) ) {
+            $out[] = "<h2>" . $taxonomy->label . "</h2>\n<ul>";
+            foreach ( $terms as $term ) {
+                $out[] = sprintf( '<li><a href="%1$s">%2$s</a></li>',
+                    esc_url( get_term_link( $term->slug, $taxonomy_slug ) ),
+                    esc_html( $term->name )
+                );
+            }
+            $out[] = "\n</ul>\n";
+        }
+    }
+    return implode( '', $out );
+}

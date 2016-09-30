@@ -36,6 +36,8 @@ $videolink = '';
 		<?php
 		the_content();
 
+		echo wpdocs_custom_taxonomies_terms_links();
+
 		echo get_datos_video(get_the_ID());
 
 		wp_link_pages( array(

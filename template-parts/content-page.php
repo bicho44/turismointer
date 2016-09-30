@@ -23,6 +23,9 @@
 		<?php
 			the_content();
 
+			echo wpdocs_custom_taxonomies_terms_links();
+
+
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'turismointer' ),
 				'after'  => '</div>',
@@ -32,6 +35,7 @@
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
+
 			<?php
 				edit_post_link(
 					sprintf(
