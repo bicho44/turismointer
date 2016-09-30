@@ -18,7 +18,6 @@ get_header(); ?>
 <div class="row">
 		<?php get_sidebar(); ?>
 		<main id="main" class="site-main col-md-9" role="main">
-
 			<?php
 			while ( have_posts() ) : the_post();
 
