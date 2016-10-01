@@ -15,7 +15,7 @@ if (has_post_thumbnail()) {?>
 
     <a href="<?php the_permalink(); ?>">
           <?php  /* @todo Cambiar para que la imagen sea responsive */
-            the_post_thumbnail('thumbnail', array('class'=>'img-circle align-center'));
+            the_post_thumbnail('thumbnail', array('class'=>'img-circle align-center img-responsive'));
             ?>
     </a>
 <?php } ?>
@@ -29,7 +29,7 @@ if ($notitle !== '0' ) { ?>
         <?php
         //get_the_terms(get_the_ID());
         the_title(sprintf('<h3 class="align-center"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h3>');
-        imgd_content(35);
+        //imgd_content(35);
         ?>
     </header><!-- .entry-header -->
 <?php } ?>
