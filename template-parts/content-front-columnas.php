@@ -11,7 +11,7 @@ $loop = new WP_Query($args);
     <div class="row">
 
       <div class="col-md-3">
-        Columna 1
+        	<?php get_template_part('template-parts/menu', 'secundario'); ?>
       </div>
       <div class="col-md-6">
     <?php   if ($loop->have_posts()) {?>

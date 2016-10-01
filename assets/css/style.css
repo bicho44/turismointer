@@ -1716,7 +1716,8 @@ a .icon-flip-vertical:before {
   left: -9999em;
 }
 #menu-social {
-  padding: 20px 0;
+  padding: 10px 0;
+  float: right;
 }
 #menu-social ul {
   list-style: none;
@@ -1744,7 +1745,7 @@ a .icon-flip-vertical:before {
   display: inline-block;
   padding: 0 5px;
   font-family: 'FontAwesome', sans-serif;
-  font-size: 18px;
+  font-size: 21.6px;
   vertical-align: top;
   -webkit-font-smoothing: antialiased;
 }
@@ -7180,6 +7181,7 @@ fieldset[disabled] a#totop {
   background-color: #333333;
   padding: 20px 0;
   border-top: 5px solid #2e5f55;
+  color: #fff;
   /*&:before {
     background-image: url('../images/linea-pie.png');
     background-repeat: no-repeat;
@@ -7191,9 +7193,8 @@ fieldset[disabled] a#totop {
     color: @white;
   }*/
 }
-.wrapfooter .site-footer {
+.wrapfooter h4 {
   color: #fff;
-  text-align: center;
 }
 .wrapfooter .site-footer a {
   color: #fff;

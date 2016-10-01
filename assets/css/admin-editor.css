@@ -1340,6 +1340,7 @@ fieldset[disabled] a#totop {
   background-color: #333333;
   padding: 20px 0;
   border-top: 5px solid #2e5f55;
+  color: #fff;
   /*&:before {
     background-image: url('../images/linea-pie.png');
     background-repeat: no-repeat;
@@ -1351,9 +1352,8 @@ fieldset[disabled] a#totop {
     color: @white;
   }*/
 }
-.wrapfooter .site-footer {
+.wrapfooter h4 {
   color: #fff;
-  text-align: center;
 }
 .wrapfooter .site-footer a {
   color: #fff;

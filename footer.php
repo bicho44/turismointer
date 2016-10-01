@@ -14,11 +14,13 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4"><!-- Menu Social -->
-						<?php get_template_part('template-parts/menu', 'social'); ?>
+
+					<div class="col-md-6">
+						<?php get_template_part('template-parts/menu', 'acompanan'); ?>
 					</div>
-						<div class="col-md-8"><!-- Menu Secundario -->
-							<?php get_template_part('template-parts/menu', 'secundario'); ?>
+
+						<div class="col-md-6"><!-- Menu Social -->
+							<?php get_template_part('template-parts/menu', 'social'); ?>
 						</div>
 				</div>
 			</div>

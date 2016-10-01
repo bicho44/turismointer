@@ -59,7 +59,7 @@ add_theme_support('jquery-cdn');
 */
 add_action( 'wp_footer', 'back_to_top' );
 function back_to_top() {
-    echo '<a id="totop" href="#">'.__("Subir","imgd").'</a>';
+    echo '<a id="totop" href="#" class="btn btn-defaults"><i class="icon-chevron-up"></i> '.__("Subir","imgd").'</a>';
 }
 
 /**
