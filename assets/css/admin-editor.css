@@ -1206,9 +1206,16 @@ animation:         KEYFRAME-NAME 5s infinite;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
   position: fixed;
   right: 30px;
-  bottom: 30px;
+  bottom: 130px;
   display: none;
   outline: none;
 }
@@ -1246,6 +1253,58 @@ fieldset[disabled] #totop {
 a#totop.disabled,
 fieldset[disabled] a#totop {
   pointer-events: none;
+}
+#totop:focus,
+#totop.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+#totop:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+#totop:active,
+#totop.active,
+.open > .dropdown-toggle#totop {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+#totop:active:hover,
+#totop.active:hover,
+.open > .dropdown-toggle#totop:hover,
+#totop:active:focus,
+#totop.active:focus,
+.open > .dropdown-toggle#totop:focus,
+#totop:active.focus,
+#totop.active.focus,
+.open > .dropdown-toggle#totop.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+#totop:active,
+#totop.active,
+.open > .dropdown-toggle#totop {
+  background-image: none;
+}
+#totop.disabled:hover,
+#totop[disabled]:hover,
+fieldset[disabled] #totop:hover,
+#totop.disabled:focus,
+#totop[disabled]:focus,
+fieldset[disabled] #totop:focus,
+#totop.disabled.focus,
+#totop[disabled].focus,
+fieldset[disabled] #totop.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+#totop .badge {
+  color: #fff;
+  background-color: #333;
 }
 .wp-post-image {
   display: block;

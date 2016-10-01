@@ -74,6 +74,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/images\/acompanan\/bariloche-quiero-estar-logo-w.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/bariloche-quiero-estar-logo-w.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/bariloche-quiero-estar-logo-w.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/acompanan\/gobierno-chile-turismo-logo-w.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/gobierno-chile-turismo-logo-w.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/gobierno-chile-turismo-logo-w.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/acompanan\/gobierno-de-rio-negro-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/gobierno-de-rio-negro-logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/gobierno-de-rio-negro-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/acompanan\/municipio-chile-logo-w.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/municipio-chile-logo-w.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/municipio-chile-logo-w.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/acompanan\/region-bio-y-los-lagos-logo-w.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/region-bio-y-los-lagos-logo-w.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/region-bio-y-los-lagos-logo-w.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/acompanan\/turismo-chubut-logo-w.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/turismo-chubut-logo-w.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/turismo-chubut-logo-w.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/acompanan\/turismo-de-rio-negro-logo-w.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/turismo-de-rio-negro-logo-w.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/turismo-de-rio-negro-logo-w.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/Linea-Pie.png": {
 		"fileType": 32768,
 		"ignore": 0,
