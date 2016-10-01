@@ -11,11 +11,14 @@ get_header(); ?>
 
 <?php
 $opciones_imgd = get_option('opciones_imgd');
-//echo piklist::pre($opciones_imgd);
-$video = $opciones_imgd['imgd_video'];
+
+$video = $opciones_imgd['imgd_video'][0];
 $videolink = $opciones_imgd['imgd_video_link'];
-$destacados = $opciones_imgd['imgd_destaca'];
-$columnas = $opciones_imgd['imgd_columnas'];
+$destacados = $opciones_imgd['imgd_destaca'][0];
+$columnas = $opciones_imgd['imgd_columnas'][0];
+
+echo piklist::pre($opciones_imgd);
+
 //echo piklist::pre($video);
 //var_dump($video);
 
