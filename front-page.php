@@ -17,7 +17,7 @@ $videolink = $opciones_imgd['imgd_video_link'];
 $destacados = $opciones_imgd['imgd_destaca'][0];
 $columnas = $opciones_imgd['imgd_columnas'][0];
 
-echo piklist::pre($opciones_imgd);
+//echo piklist::pre($opciones_imgd);
 
 //echo piklist::pre($video);
 //var_dump($video);
