@@ -13,12 +13,18 @@ animation:         KEYFRAME-NAME 5s infinite;
   .btn();
   .btn-default();
   .btn-xs();
-            position: fixed;
-            right: 30px;
-            bottom: 130px;
-            display: none;
-            outline: none;
-        }
+  color:@white;
+  background-color: fade(darken(@brand-warning,30),70%);
+  position: fixed;
+  right: 30px;
+  bottom: 200px;
+  display: none;
+  outline: none;
+  &:hover{
+    color:@white;
+    background-color: fade(darken(@brand-warning,25),60%);
+  }
+}
 
 .wp-post-image{.img-responsive}
 
