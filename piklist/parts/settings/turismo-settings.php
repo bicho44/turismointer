@@ -59,3 +59,22 @@ piklist (
         'position' => 'wrap'
     )
 );
+
+piklist (
+    'field',
+    array(
+        'type' => 'radio',
+        'scope' => 'post_meta',
+        'field' => 'imgd_columnas',
+        'label' => __('Mostar Línea de Columnas', 'imgd'),
+        'value' => 0,
+        'attributes' => array(
+            'class' => 'radio'
+        ),
+        'choices' => array(
+            0 => __('No', 'imgd'),
+            1 => __('Si', 'imgd')
+        ),
+        'position' => 'wrap'
+    )
+);

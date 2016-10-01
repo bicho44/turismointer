@@ -54,7 +54,13 @@ define('POST_EXCERPT_LENGTH', 55);
 /** Enable to load jQuery from the Google CDN */
 add_theme_support('jquery-cdn');
 
-
+/**
+* Agregar el Back to Top
+*/
+add_action( 'wp_footer', 'back_to_top' );
+function back_to_top() {
+    echo '<a id="totop" href="#">'.__("Subir","imgd").'</a>';
+}
 
 /**
  * Agrego el estilo del editor de texto en el Administrador
@@ -277,10 +283,15 @@ function thumbnail_extra($postID) {
  * @param int $limit Limite de palabras
  * @return string $content El contenido reducido de acuendo al límite de palabras
  */
-function imgd_content($limit) {
-    global $post;
+function get_imgd_content($limit=35,$content="") {
 
+		global $post;
+
+		if($content==''){
     $content = explode(' ', get_the_content(), $limit);
+	} else {
+		$content = explode(' ', $content, $limit);
+	}
 
     if (count($content) >= $limit) {
         array_pop($content);
@@ -295,6 +306,10 @@ function imgd_content($limit) {
     $content = str_replace(']]>', ']]&gt;', $content);
 
     return $content;
+}
+
+function imgd_content($limit=35,$content=""){
+	echo get_imgd_content($limit,$content);
 }
 
 /**

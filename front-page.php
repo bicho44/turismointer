@@ -15,6 +15,7 @@ $opciones_imgd = get_option('opciones_imgd');
 $video = $opciones_imgd['imgd_video'];
 $videolink = $opciones_imgd['imgd_video_link'];
 $destacados = $opciones_imgd['imgd_destaca'];
+$columnas = $opciones_imgd['imgd_columnas'];
 //echo piklist::pre($video);
 //var_dump($video);
 
@@ -57,6 +58,9 @@ $destacados = $opciones_imgd['imgd_destaca'];
 <?php } ?>
 
 
+<?php if ($columnas!=0){?>
+<?php get_template_part('template-parts/content-front-columnas'); ?>
+<?php } ?>
 
 <?php
 get_footer();
