@@ -5,7 +5,7 @@
             'theme_location'  => 'social',
             'container'       => 'nav',
             'container_id'    => 'menu-social',
-            'container_class' => 'menu nav navbar-nav hidden-sm hidden-xs',
+            'container_class' => 'menu nav navbar-nav',
             'menu_id'         => 'menu-social-items',
             'menu_class'      => 'menu-items',
             'depth'           => 1,
