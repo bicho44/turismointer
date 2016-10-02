@@ -17,7 +17,7 @@ if (  has_nav_menu( 'secondary' ) || is_active_sidebar( 'sidebar-2' )  ) : ?>
       'container' => 'div',
       'container_class' => 'secondary',
       'container_id' => 'secondary',
-      'menu_class' => 'list-inline',
+      'menu_class' => 'list-unstyled',
     )
   );
 
