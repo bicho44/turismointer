@@ -14,7 +14,7 @@
 	<header class="entry-header">
 		<?php
 			if (has_post_thumbnail()){
-				the_post_thumbnail(array(65,65), array('class'=>'img-circle'));
+				the_post_thumbnail('stamp', array('class'=>'img-circle'));
 			}
 		 ?>
 		<?php	the_title(sprintf('<h4><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h4>');?>

@@ -15,7 +15,7 @@
 
 add_image_size('full-cropped', 1150, 480, true);
 
-add_image_size('header-cropped', 1150, 300, true);
+add_image_size('header-cropped', 1150, 300, true, array( 'center', 'top' ) );
 
 add_image_size('show-cropped', 340, 340, true);
 add_image_size('show-archive', 750, 200, true);
@@ -25,6 +25,7 @@ add_image_size('phones', 480, 250, true);
 */
 
 add_image_size('thumb-archive', 300, 150, true);
+add_image_size('stamp', 65, 65, true);
 
 //add_image_size('lead-image', 780, 260, true);
 
