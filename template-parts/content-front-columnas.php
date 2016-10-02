@@ -6,13 +6,12 @@ $args = array(
 );
 $loop = new WP_Query($args);
 ?>
-
+<div class="tres-columnas">
   <div class="container">
     <div class="row">
+          <?php get_template_part('template-parts/menu', 'secundario'); ?>
 
-      <div class="col-md-3">
-        Columna 3
-      </div>
+
       <div class="col-md-6">
     <?php   if ($loop->have_posts()) {?>
         <h3>Últimas Novedades</h3>
@@ -29,10 +28,12 @@ $loop = new WP_Query($args);
     } ?>
 
     </div>
-
     <div class="col-md-3">
-        <?php get_template_part('template-parts/menu', 'secundario'); ?>
+      <h4>Auspician</h4>
     </div>
+
   </div>
+</div>
+
 </div>
 <?php wp_reset_query(); ?>

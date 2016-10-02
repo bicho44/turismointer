@@ -1227,12 +1227,6 @@ animation:         KEYFRAME-NAME 5s infinite;
 .content-area {
   margin-top: 65px;
 }
-.ultimas h4 {
-  margin-bottom: 5px;
-}
-.ultimas .entry-content {
-  margin-top: .5em;
-}
 /** Comentarios */
 .comment-form-author,
 .comment-form-email,
@@ -1295,6 +1289,27 @@ animation:         KEYFRAME-NAME 5s infinite;
 .calendar-table .table {
   background-color: #fff;
 }
+.tres-columnas {
+  background-color: #eeeeee;
+}
+.ultimas {
+  border-bottom: 1px solid #eeeeee;
+  min-height: 70px;
+  margin: 6px 0;
+}
+.ultimas img {
+  float: left;
+  margin-right: 10px;
+}
+.ultimas h4 {
+  margin-bottom: 3px;
+}
+.ultimas p {
+  margin-bottom: 5px;
+}
+.ultimas .entry-content {
+  margin-top: .5em;
+}
 .wrapfooter {
   background-color: #333333;
   padding: 20px 0;
@@ -1321,4 +1336,8 @@ animation:         KEYFRAME-NAME 5s infinite;
 .wrapfooter .site-footer .site-info {
   text-align: center;
   font-size: 10px;
+}
+.menu-acompanan img {
+  margin-bottom: 5px;
+  margin-right: 5px;
 }

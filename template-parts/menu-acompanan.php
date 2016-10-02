@@ -1,5 +1,5 @@
 <h4>Acompañan este Proyecto</h4>
-<ul class="list-inline">
+<ul class="list-inline menu-acompanan">
   <li>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/bariloche-quiero-estar-logo-w.png" alt="Bariloche Quiero Estar Ahí">
   </li>

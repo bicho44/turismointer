@@ -10,19 +10,20 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('ultimas'); ?>>
-	<?php
-		if (has_post_thumbnail()){
-			the_post_thumbnail('thumbnail', array('class'=>'img-circle'));
-		}
-	 ?>
+
 	<header class="entry-header">
+		<?php
+			if (has_post_thumbnail()){
+				the_post_thumbnail(array(65,65), array('class'=>'img-circle'));
+			}
+		 ?>
 		<?php	the_title(sprintf('<h4><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h4>');?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 
 		<?php
-			imgd_content( 35);
+			imgd_content( 15);
 		?>
 	</div><!-- .entry-content -->
 

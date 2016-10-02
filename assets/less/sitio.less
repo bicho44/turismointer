@@ -50,15 +50,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   margin-top: 65px;
 }
 
-.ultimas {
 
-   h4 {
-    margin-bottom: 5px;
-  }
-  .entry-content{
-      margin-top: .5em;
-  }
-}
 
 /** Comentarios */
 .comment-form-author,
@@ -97,6 +89,34 @@ animation:         KEYFRAME-NAME 5s infinite;
 .calendar-table {
   .table();
 }
+
+// Ultimas novedades
+.tres-columnas{
+  background-color: @gray-lighter;
+}
+.ultimas {
+    border-bottom: 1px solid @gray-lighter;
+    min-height: 70px;
+    margin: 6px 0;
+    img{
+      float: left;
+      margin-right: 10px;
+    }
+    h4 {
+      margin-bottom: 3px;
+    }
+    p{
+      margin-bottom: 5px;
+    }
+    .entry-content{
+        margin-top: .5em;
+    }
+
+
+
+}
+
+
 //------------- FOOTER ----------//
 .wrapfooter {
   background-color: @gray-dark;
@@ -129,5 +149,12 @@ h4{
       text-align: center;
       font-size: 10px;
     }
+  }
+}
+
+.menu-acompanan{
+  img {
+    margin-bottom: 5px;
+    margin-right: 5px;
   }
 }
