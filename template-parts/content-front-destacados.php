@@ -10,7 +10,7 @@ $args = array('post_type' => array('post', 'page','imgd_programa', 'portfolio_it
 $loop = new WP_Query($args);
 
 if ($loop->have_posts()) {?>
-  <div class="container">
+  <section class="container imgd-destacados">
     <div class="row">
     <?php
     $x = 0;
@@ -27,6 +27,6 @@ if ($loop->have_posts()) {?>
     </article>
   <?php endwhile; ?>
   </div>
-</div>
+</section>
 <?php } ?>
 <?php wp_reset_query(); ?>

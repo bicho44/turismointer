@@ -6,26 +6,24 @@ $args = array(
 );
 $loop = new WP_Query($args);
 ?>
-<div class="tres-columnas">
+<section class="tres-columnas">
   <div class="container">
     <div class="row">
-          <?php get_template_part('template-parts/menu', 'secundario'); ?>
-
-
+      <?php get_template_part('template-parts/menu', 'secundario'); ?>
       <div class="col-md-6">
-    <?php   if ($loop->have_posts()) {?>
-        <h3>Últimas Novedades</h3>
-        <?php
-        $x = 0;
-        while ($loop->have_posts()) : $loop->the_post();
-        ?>
+        <?php   if ($loop->have_posts()) {?>
+          <h3><?php _e('Últimas Novedades', 'imgd'); ?></h3>
+          <?php
+          $x = 0;
+          while ($loop->have_posts()) : $loop->the_post();
+          ?>
           <?php
           get_template_part( 'template-parts/content', 'novedades');
           $x++;
           ?>
 
-      <?php endwhile;
-    } ?>
+        <?php endwhile;
+      } ?>
 
     </div>
     <div class="col-md-3">
@@ -35,5 +33,5 @@ $loop = new WP_Query($args);
   </div>
 </div>
 
-</div>
+</section>
 <?php wp_reset_query(); ?>
