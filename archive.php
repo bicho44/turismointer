@@ -11,9 +11,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area container">
 		<div class="row">
-		<?php
-		get_sidebar();
-		?>
+
 		<main id="main" class="site-main col-md-9" role="main">
 
 		<?php
@@ -40,7 +38,7 @@ get_header(); ?>
 			endwhile;
 
 
-			
+
 if (function_exists("wp_bs_pagination"))
     {
          //wp_bs_pagination($the_query->max_num_pages);
@@ -57,6 +55,9 @@ if (function_exists("wp_bs_pagination"))
 		endif; ?>
 
 		</main><!-- #main -->
+		<?php
+		get_sidebar();
+		?>
 		</div>
 	</div><!-- #primary -->
 
