@@ -6727,6 +6727,12 @@ animation:         KEYFRAME-NAME 5s infinite;
 .calendar-table .table {
   background-color: #fff;
 }
+.thumbnail {
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
 .tres-columnas {
   background-color: #eeeeee;
 }

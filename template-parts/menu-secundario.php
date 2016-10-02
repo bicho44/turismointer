@@ -20,8 +20,8 @@ if (  has_nav_menu( 'secondary' ) || is_active_sidebar( 'sidebar-2' )  ) : ?>
       'menu_class' => 'list-unstyled',
     )
   );
-
   ?>
+  
 </div>
 <?php endif; // End check for menu. ?>
 <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
