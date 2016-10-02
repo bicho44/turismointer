@@ -288,8 +288,11 @@ function get_imgd_content($limit=35,$content="") {
 		global $post;
 
 		if($content==''){
-    $content = explode(' ', get_the_content(), $limit);
+		$content = get_the_content();
+		$content = preg_replace('/<img[^>]+./','', $content);
+    $content = explode(' ', $content, $limit);
 	} else {
+		$content = preg_replace('/<img[^>]+./','', $content);
 		$content = explode(' ', $content, $limit);
 	}
 
