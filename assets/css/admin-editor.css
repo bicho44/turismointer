@@ -1210,6 +1210,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 .site-header {
   position: absolute;
