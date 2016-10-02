@@ -1304,6 +1304,14 @@ animation:         KEYFRAME-NAME 5s infinite;
   min-height: 70px;
   margin: 6px 0;
 }
+.ultimas:before,
+.ultimas:after {
+  content: " ";
+  display: table;
+}
+.ultimas:after {
+  clear: both;
+}
 .ultimas img {
   float: left;
   margin-right: 10px;
