@@ -1202,8 +1202,8 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 @media (min-width: 992px) {
   #totop {
-    right: 30px;
-    bottom: 200px;
+    right: 40px;
+    bottom: 40px;
   }
 }
 .wp-post-image {
@@ -1300,9 +1300,12 @@ animation:         KEYFRAME-NAME 5s infinite;
   background-color: #eeeeee;
 }
 .ultimas {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #777777;
   min-height: 70px;
   margin: 6px 0;
+}
+.ultimas:last-child {
+  border-bottom: none;
 }
 .ultimas:before,
 .ultimas:after {

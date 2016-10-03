@@ -22,8 +22,8 @@ animation:         KEYFRAME-NAME 5s infinite;
     background-color: fade(darken(@brand-warning,25),60%);
   }
   @media (min-width: @screen-md-min) {
-    right: 30px;
-    bottom: 200px;
+    right: 40px;
+    bottom: 40px;
   }
 
 }
@@ -106,9 +106,14 @@ animation:         KEYFRAME-NAME 5s infinite;
   background-color: @gray-lighter;
 }
 .ultimas {
-    border-bottom: 1px solid @gray-lighter;
+    border-bottom: 1px solid @gray-light;
     min-height: 70px;
     margin: 6px 0;
+
+    &:last-child{
+      border-bottom: none;
+    }
+
     .clearfix();
 
     img{
