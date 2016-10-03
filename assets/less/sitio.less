@@ -10,16 +10,17 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 
 #totop {
-  color:@white;
-  background-color: fade(darken(@brand-warning,30),70%);
+  color:fade(@white, 40%);
+  background-color: fade(darken(@brand-warning,30),20%);
   position: fixed;
   display: none;
   outline: none;
   right: 15px;
   bottom: 15px;
+  border-color: fade(darken(@brand-warning,30),20%);
   &:hover{
     color:@white;
-    background-color: fade(darken(@brand-warning,25),60%);
+    background-color: fade(darken(@brand-warning,25),70%);
   }
   @media (min-width: @screen-md-min) {
     right: 40px;

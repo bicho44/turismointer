@@ -6626,17 +6626,18 @@ animation:         KEYFRAME-NAME 5s infinite;
   transition: all .5s;
 }
 #totop {
-  color: #fff;
-  background-color: rgba(152, 95, 13, 0.7);
+  color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(152, 95, 13, 0.2);
   position: fixed;
   display: none;
   outline: none;
   right: 15px;
   bottom: 15px;
+  border-color: rgba(152, 95, 13, 0.2);
 }
 #totop:hover {
   color: #fff;
-  background-color: rgba(176, 109, 15, 0.6);
+  background-color: rgba(176, 109, 15, 0.7);
 }
 @media (min-width: 992px) {
   #totop {
