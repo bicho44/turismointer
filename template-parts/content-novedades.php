@@ -19,7 +19,7 @@
 		 ?>
 		 <h4>
 			 <a href="<?php get_the_permalink(); ?>">
-				<?php	ShortenText(get_the_title());?>
+				<?php	shortentext(get_the_title());?>
 			</a>
 		</h4>
 	</header><!-- .entry-header -->
