@@ -133,13 +133,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/linea-pie.png": {
+	"\/assets\/images\/Linea-Pie.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 794,
-		"inputAbbreviatedPath": "\/assets\/images\/linea-pie.png",
-		"outputAbbreviatedPath": "\/assets\/images\/linea-pie.png",
+		"inputAbbreviatedPath": "\/assets\/images\/Linea-Pie.png",
+		"outputAbbreviatedPath": "\/assets\/images\/Linea-Pie.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1311,6 +1311,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template-parts\/menu-social.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/template-parts\/menu-terciario.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template-parts\/menu-terciario.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

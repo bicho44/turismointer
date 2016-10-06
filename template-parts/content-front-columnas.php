@@ -26,9 +26,7 @@ $loop = new WP_Query($args);
       } ?>
 
     </div>
-    <div class="col-md-3">
-      <h4>Auspician</h4>
-    </div>
+    <?php get_template_part('template-parts/menu', 'terciario'); ?>
 
   </div>
 </div>

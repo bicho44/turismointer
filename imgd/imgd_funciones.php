@@ -276,6 +276,24 @@ function thumbnail_extra($postID) {
 
     return $thumb;
 }
+/**
+* Limitar la cantidad de caracteres en el título
+*
+* @link: http://www.wpbeginner.com/wp-themes/how-to-truncate-wordpress-post-titles-with-php/
+*
+*/
+function ShortenText($text, $chars_limit = 18) { // Function name ShortenText
+  if (!$chars_limit) $chars_limit = 18; // Character length
+	
+  $chars_text = strlen($text);
+  $text = $text." ";
+  $text = substr($text,0,$chars_limit);
+  $text = substr($text,0,strrpos($text,' '));
+
+  if ($chars_text > $chars_limit)
+     { $text = $text."..."; } // Ellipsis
+     return $text;
+}
 
 /**
  * IMGD Content

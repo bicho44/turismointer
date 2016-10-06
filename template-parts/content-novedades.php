@@ -17,7 +17,11 @@
 				the_post_thumbnail('stamp', array('class'=>'img-circle'));
 			}
 		 ?>
-		<?php	the_title(sprintf('<h4><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h4>');?>
+		 <h4>
+			 <a href="<?php get_the_permalink(); ?>">
+				<?php	ShortenText(get_the_title());?>
+			</a>
+		</h4>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
