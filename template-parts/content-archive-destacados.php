@@ -31,7 +31,7 @@ if ($notitle !== '0' ) { ?>
         ?>
         <h3 class="align-center">
           <a href="<?php esc_url(get_permalink()); ?>">
-           <?php shortentext(get_the_title());?>
+           <?php shortentext(get_the_title(), 25);?>
          </a>
        </h3>
         <?php
