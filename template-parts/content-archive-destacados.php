@@ -30,7 +30,7 @@ if ($notitle !== '0' ) { ?>
         //get_the_terms(get_the_ID());
         ?>
         <h3 class="align-center">
-          <a href="<?php esc_url(get_permalink()); ?>">
+          <a href="<?php the_permalink(); ?>" rel="bookmark">
            <?php shortentext(get_the_title(), 25);?>
          </a>
        </h3>
