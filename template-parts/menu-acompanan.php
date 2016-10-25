@@ -14,6 +14,6 @@
   </li>
   <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/turismo-de-rio-negro-logo-w.png" alt="Turismo de Río Negro">
   </li>
-  <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/neuwuen-tur-logo-w.png" alt="Turismo de Río Negro">
+  <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/neuquen-tur-logo-w.png" alt="Turismo de Neuquén">
   </li>
 </ul>
