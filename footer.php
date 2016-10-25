@@ -15,11 +15,11 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-md-6">
+					<div class="col-md-8">
 						<?php get_template_part('template-parts/menu', 'acompanan'); ?>
 					</div>
 
-						<div class="col-md-6"><!-- Menu Social -->
+						<div class="col-md-3"><!-- Menu Social -->
 							<?php get_template_part('template-parts/menu', 'social'); ?>
 						</div>
 				</div>
