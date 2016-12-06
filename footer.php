@@ -14,14 +14,13 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="container">
 				<div class="row">
-
-					<div class="col-md-9">
-						<?php get_template_part('template-parts/menu', 'acompanan'); ?>
+					<div class="col-md-offset-8 col-md-3"><!-- Menu Social -->
+						<?php get_template_part('template-parts/menu', 'social'); ?>
 					</div>
+				</div>
+				<div class="row">
+						<?php get_template_part('template-parts/menu', 'acompanan'); ?>
 
-						<div class="col-md-3"><!-- Menu Social -->
-							<?php get_template_part('template-parts/menu', 'social'); ?>
-						</div>
 				</div>
 			</div>
 		</footer>

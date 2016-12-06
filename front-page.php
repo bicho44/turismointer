@@ -24,16 +24,12 @@ $columnas = $opciones_imgd['imgd_columnas'][0];
 
 // Secciones Front Page
 
-// 1 Video
-// 1.1 @todo Poner la opción donde elijo el video a mostrar.
+/**
 
-// 2 Ubicaciones
-// 2.0 Maximo 4
-// 2.1 Sólo muestro las Ubicaciones que tengan data
-// 2.2 Sólo mostar la última
-// 2.3
+3 columnas
+Paises, noticias y eventos, sponsors
 
-// 3 Programas
+**/
 
  ?>
  <?php
