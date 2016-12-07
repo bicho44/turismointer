@@ -7,7 +7,7 @@
 * @package Turismo_InterOceánico
 */
 if (  has_nav_menu( 'secondary' ) || is_active_sidebar( 'sidebar-2' )  ) : ?>
-  <aside id="secondary" class="widget-area col-md-3" role="complementary">
+  <aside id="secondary" class="widget-area col-md-3 col-sm-6 col-xs-12" role="complementary">
     <?php if ( has_nav_menu( 'secondary' ) ) : // Check if there's a menu assigned to the 'social' location. ?>
       <?php
       wp_nav_menu(array(
@@ -26,6 +26,6 @@ if (  has_nav_menu( 'secondary' ) || is_active_sidebar( 'sidebar-2' )  ) : ?>
   <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
     <?php dynamic_sidebar( 'sidebar-2' ); ?>
   <? endif; ?>
-  
+
   </aside><!-- #secondary -->
 <? endif; ?>

@@ -4,10 +4,11 @@ if (!isset($destacadosID)){
   $destacadosID = array();
 }
 
-$args = array(
+$args = array('post_type' => array('post', 'page','imgd_programa'),
   'ignore_sticky_posts'=>true,
-  'posts_per_page' => 6,
-  'post__not_in' => $destacadosID
+  'post_status' => 'publish',
+  'post__not_in' => $destacadosID,
+  'posts_per_page' => 6
 );
 $loop = new WP_Query($args);
 ?>
@@ -15,7 +16,7 @@ $loop = new WP_Query($args);
   <div class="container">
     <div class="row">
       <?php get_template_part('template-parts/menu', 'secundario'); ?>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6 col-xs-12">
         <?php   if ($loop->have_posts()) {?>
           <h3><?php _e('Últimas Noticias', 'imgd'); ?></h3>
           <?php

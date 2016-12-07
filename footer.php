@@ -20,7 +20,9 @@
 				</div>
 				<div class="row">
 						<?php get_template_part('template-parts/menu', 'acompanan'); ?>
-
+				</div>
+				<div class="row">
+					<?php //imgd_credits(); ?>
 				</div>
 			</div>
 		</footer>

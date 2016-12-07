@@ -14,6 +14,8 @@ if ($loop->have_posts()) {?>
     <div class="row">
     <?php
     $x = 0;
+    $destacadosID = array();
+
     while ($loop->have_posts()) : $loop->the_post();
     $destacadosID[] = get_the_ID();
     ?>
@@ -30,4 +32,6 @@ if ($loop->have_posts()) {?>
   </div>
 </section>
 <?php } ?>
-<?php wp_reset_query(); ?>
+<?php wp_reset_query();
+//var_dump($destacadosID);
+?>

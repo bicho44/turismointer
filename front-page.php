@@ -53,12 +53,14 @@ Paises, noticias y eventos, sponsors
 ?>
 
 <?php if ($destacados!=0){?>
-<?php get_template_part('template-parts/content-front-destacados'); ?>
+<?php
+include( locate_template( 'template-parts/content-front-destacados.php' ) );
+//get_template_part('template-parts/content-front-destacados'); ?>
 <?php } ?>
 
-
 <?php if ($columnas!=0){?>
-<?php get_template_part('template-parts/content-front-columnas'); ?>
+<?php include( locate_template( 'template-parts/content-front-columnas.php' ) );
+//get_template_part('template-parts/content-front-columnas'); ?>
 <?php } ?>
 
 <?php
