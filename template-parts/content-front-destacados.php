@@ -15,6 +15,7 @@ if ($loop->have_posts()) {?>
     <?php
     $x = 0;
     while ($loop->have_posts()) : $loop->the_post();
+    $destacadosID[] = get_the_ID();
     ?>
 
     <article id="post-<?php the_ID(); ?>" <?php post_class('col-md-2 col-sm-4 col-xs-6'); ?>>
