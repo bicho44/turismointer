@@ -4,7 +4,12 @@ if (!isset($destacadosID)){
   $destacadosID = array();
 }
 
-$args = array('post_type' => array('post', 'page','imgd_programa'),
+/**
+* Saco esto para que sólo se muestren las Noticias
+* 'post_type' => array('post', 'page','imgd_programa'),
+*/
+
+$args = array(
   'ignore_sticky_posts'=>true,
   'post_status' => 'publish',
   'post__not_in' => $destacadosID,
