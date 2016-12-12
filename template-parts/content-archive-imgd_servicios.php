@@ -45,10 +45,9 @@
         <?php echo '<strong>Web:</strong> <a href="'.get_post_meta($ID , 'imgd_servicio_web', true).'">'. get_post_meta($ID , 'imgd_servicio_web', true).'</a><br>'; ?>
         <?php } ?>
 
-
-        Direccion<br>
+        <!-- Direccion<br>
         ciudad - estado - pais<br>
-        web
+        web -->
       </div>
 
 
