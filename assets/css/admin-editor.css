@@ -1187,8 +1187,36 @@ animation:         KEYFRAME-NAME 5s infinite;
 .navbar-fixed-top {
   transition: all .5s;
 }
-.listado-paises .argentina {
-  background: url('assets/images/paises/argentina.png') no-repeat left;
+.listado-paises .argentina h2 {
+  padding-left: 30px;
+  background: url('../images/paises/argentina.png') no-repeat;
+  background-position: left center;
+  background-size: 25px 25px;
+  margin-bottom: 10px;
+}
+.listado-paises .chile h2 {
+  padding-left: 30px;
+  background: url('../images/paises/chile.png') no-repeat;
+  background-position: left center;
+  background-size: 25px 25px;
+}
+.listado-paises .uruguay h2 {
+  padding-left: 30px;
+  background: url('../images/paises/uruguay.png') no-repeat;
+  background-position: left center;
+  background-size: 25px 25px;
+}
+.listado-paises .espana h2 {
+  padding-left: 30px;
+  background: url('../images/paises/espana.png') no-repeat;
+  background-position: left center;
+  background-size: 25px 25px;
+}
+.listado-paises .republica-dominicana h2 {
+  padding-left: 30px;
+  background: url('../images/paises/dominicana.png') no-repeat;
+  background-position: left center;
+  background-size: 25px 25px;
 }
 #totop {
   color: rgba(255, 255, 255, 0.4);
