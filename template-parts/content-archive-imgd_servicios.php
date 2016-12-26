@@ -26,18 +26,22 @@
       <header class="entry-header">
         <?php
         //get_the_terms(get_the_ID());
-        the_title(sprintf('<h3><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h3>');
+        //the_title(sprintf('<h3><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h3>');
+        the_title(sprintf('<h3>','' , '</h3>'));
         ?>
       </header><!-- .entry-header -->
 
       <div class="entry-content">
         <?php $ID = get_the_ID(); ?>
-        <?php if (get_post_meta($ID , 'imgd_servicio_tel', true)){?>
-        <?php echo '<strong>Tel:</strong> '. get_post_meta($ID , 'imgd_servicio_tel', true).'<br>'; ?>
-        <?php } ?>
-        <?php if (get_post_meta($ID , 'imgd_servicio_cel', true)){?>
-        <?php echo '<strong>Cel:</strong> '. get_post_meta($ID, 'imgd_servicio_cel', true).'<br>'; ?>
-        <?php } ?>
+        <?php echo get_datos_servicio($ID, 'imgd_servicio_tel', 'Tel:'); ?>
+
+        <?php //echo '<strong>Tel:</strong> '. $phone .'<br>'; ?>
+
+        <?php echo get_datos_servicio($ID, 'imgd_servicio_cel', 'Cel:'); ?>
+        
+
+        <?php //get_post_meta($ID, 'imgd_servicio_cel', true).'<br>'; ?>
+
         <?php if (get_post_meta($ID , 'imgd_servicio_email', true)){?>
         <?php echo '<strong>Email:</strong> <a href="mailto:'.get_post_meta($ID , 'imgd_servicio_email', true).'">'.get_post_meta($ID , 'imgd_servicio_email', true).'</a><br>'; ?>
         <?php } ?>

@@ -6625,6 +6625,9 @@ animation:         KEYFRAME-NAME 5s infinite;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
+.listado-paises .argentina {
+  background: url('assets/images/paises/argentina.png') no-repeat left;
+}
 #totop {
   color: rgba(255, 255, 255, 0.4);
   background-color: rgba(152, 95, 13, 0.2);
