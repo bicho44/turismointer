@@ -1,6 +1,6 @@
 <?php
 /*
-Title: Turismo Inter Oceánico
+Title: Turismo InterOceánico
 Setting: opciones_imgd
 Tab: Turismo Home Page
 */
