@@ -1328,6 +1328,9 @@ animation:         KEYFRAME-NAME 5s infinite;
   border-radius: 0;
   padding: 0;
 }
+.g-2 {
+  margin-bottom: 20px;
+}
 .tres-columnas {
   background-color: #eeeeee;
 }
