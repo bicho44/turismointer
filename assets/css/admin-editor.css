@@ -1328,6 +1328,12 @@ animation:         KEYFRAME-NAME 5s infinite;
   border-radius: 0;
   padding: 0;
 }
+.thumbnail h3 {
+  margin-top: 10px;
+}
+.thumbnail .wp-post-image {
+  margin-bottom: 0;
+}
 .g-2 {
   margin-bottom: 20px;
 }
