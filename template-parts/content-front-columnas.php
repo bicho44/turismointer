@@ -21,7 +21,7 @@ $loop = new WP_Query($args);
   <div class="container">
     <div class="row">
       <?php get_template_part('template-parts/menu', 'secundario'); ?>
-      <div class="col-md-6 col-sm-6 col-xs-12">
+      <div class="col-md-5 col-sm-6 col-xs-12">
         <?php   if ($loop->have_posts()) {?>
           <h3><?php _e('Últimas Noticias', 'imgd'); ?></h3>
           <?php
