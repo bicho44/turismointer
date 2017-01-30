@@ -42,7 +42,8 @@
 
         <?php //get_post_meta($ID, 'imgd_servicio_cel', true).'<br>'; ?>
 
-        <?php if (get_post_meta($ID , 'imgd_servicio_email', true)){?>
+        <?php $email = get_post_meta($ID , 'imgd_servicio_email', true);
+        if (!empty($email)){?>
         <?php echo '<strong>Email:</strong> <a href="mailto:'.get_post_meta($ID , 'imgd_servicio_email', true).'">'.get_post_meta($ID , 'imgd_servicio_email', true).'</a><br>'; ?>
         <?php } ?>
         <?php if (get_post_meta($ID , 'imgd_servicio_web', true)){?>
