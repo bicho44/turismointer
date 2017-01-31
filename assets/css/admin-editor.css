@@ -1370,7 +1370,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   margin-top: .5em;
 }
 .servicio {
-  min-height: 140px;
+  min-height: 200px;
 }
 .servicio a {
   font-style: normal;
