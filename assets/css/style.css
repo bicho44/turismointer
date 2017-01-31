@@ -1735,6 +1735,7 @@ a .icon-flip-vertical:before {
   position: relative;
 }
 #menu-social ul li a {
+  font-style: normal;
   color: #fff;
 }
 #menu-social ul li a:hover {
@@ -6814,6 +6815,13 @@ animation:         KEYFRAME-NAME 5s infinite;
 }
 .ultimas .entry-content {
   margin-top: .5em;
+}
+.servicio a {
+  font-style: normal;
+  font-size: 16px;
+}
+.servicio a:hover {
+  font-style: bold;
 }
 .wrapfooter {
   background-color: #333333;
