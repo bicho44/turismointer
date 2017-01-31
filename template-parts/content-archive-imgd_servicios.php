@@ -44,7 +44,7 @@
 
         <?php $email = get_post_meta($ID , 'imgd_servicio_email', true);
         if (!empty($email)){?>
-        <?php echo '<strong>Email:</strong> <a href="mailto:'.get_post_meta($ID , 'imgd_servicio_email', true).'">'.get_post_meta($ID , 'imgd_servicio_email', true).'</a><br>'; ?>
+        <?php echo '<i class="icon-envelope-alt"></i><strong>Email:</strong> <a href="mailto:'.get_post_meta($ID , 'imgd_servicio_email', true).'">'.get_post_meta($ID , 'imgd_servicio_email', true).'</a><br>'; ?>
         <?php } ?>
         <?php if (get_post_meta($ID , 'imgd_servicio_web', true)){?>
         <?php echo '<strong>Web:</strong> <a href="'.get_post_meta($ID , 'imgd_servicio_web', true).'">'. get_post_meta($ID , 'imgd_servicio_web', true).'</a><br>'; ?>
