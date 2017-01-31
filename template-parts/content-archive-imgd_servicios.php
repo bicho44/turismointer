@@ -47,7 +47,7 @@
         <?php echo '<a href="mailto:'.get_post_meta($ID , 'imgd_servicio_email', true).'"><i class="icon-envelope"></i></a>'; ?>
         <?php } ?>
         <?php if (get_post_meta($ID , 'imgd_servicio_web', true)){?>
-        <?php echo '<a href="'.get_post_meta($ID , 'imgd_servicio_web', true).'"><i class="icon-external-link"></i></a>'; ?>
+        <?php echo '<a href="'.get_post_meta($ID , 'imgd_servicio_web', true).'"><i class="icon-globe"></i></a>'; ?>
         <?php } ?>
 
         <!-- Direccion<br>
