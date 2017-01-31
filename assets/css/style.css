@@ -6816,6 +6816,9 @@ animation:         KEYFRAME-NAME 5s infinite;
 .ultimas .entry-content {
   margin-top: .5em;
 }
+.servicio {
+  min-height: 140px;
+}
 .servicio a {
   font-style: normal;
   font-size: 16px;
