@@ -91,6 +91,7 @@ require get_template_directory() . '/imgd/imgd_nav.php';
 require get_template_directory() . '/imgd/imgd_child_pages.php';
 require get_template_directory() . '/imgd/imgd_comment_bootstrap.php';
 require get_template_directory() . '/imgd/imgd_link_navigation.php';
+require get_template_directory() . '/imgd/imgd_jetpack.php';
 //require get_template_directory() . '/inc/meta-box/meta-box.php';// MetaBox functions
 //require get_template_directory() . '/imgd/imgd_widgets.php';
 //require get_template_directory() . '/imgd/imgd_pagination.php';

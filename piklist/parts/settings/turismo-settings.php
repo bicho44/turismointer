@@ -46,6 +46,26 @@ piklist (
     array(
         'type' => 'radio',
         'scope' => 'post_meta',
+        'field' => 'imgd_widget_central',
+        'label' => __('Banner Central', 'imgd'),
+        'description' => __('Habilita un área de Widgets donde se puede poner un banner central','imgd'),
+        'value' => 0,
+        'attributes' => array(
+            'class' => 'radio'
+        ),
+        'choices' => array(
+            0 => __('No', 'imgd'),
+            1 => __('Si', 'imgd')
+        ),
+        'position' => 'wrap'
+    )
+);
+
+piklist (
+    'field',
+    array(
+        'type' => 'radio',
+        'scope' => 'post_meta',
         'field' => 'imgd_destaca',
         'label' => __('Mostar Línea de Destacados en la Home Page', 'imgd'),
         'value' => 0,

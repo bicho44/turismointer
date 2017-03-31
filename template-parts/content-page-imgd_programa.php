@@ -41,15 +41,10 @@ $videolink = '';
 		echo get_datos_video(get_the_ID());
 
 
-		// if ( class_exists( 'Jetpack_RelatedPosts' ) ) {
-		//      echo do_shortcode( '[jetpack-related-posts]' );
-		//  }
-
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'turismointer' ),
-			'after'  => '</div>',
-			) );
-			?>
+		if ( class_exists( 'Jetpack_RelatedPosts' ) ) {
+		      echo do_shortcode( '[jetpack-related-posts]' );
+		}
+		?>
 		</div><!-- .entry-content -->
 
 		<?php if ( get_edit_post_link() ) : ?>
@@ -68,3 +63,9 @@ $videolink = '';
 	</footer><!-- .entry-footer -->
 <?php endif; ?>
 </article><!-- #post-## -->
+
+<?php
+wp_link_pages( array(
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'turismointer' ),
+			'after'  => '</div>',
+			) );

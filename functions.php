@@ -102,6 +102,17 @@ function turismointer_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'Área para el Banner principal', 'imgd' ),
+		'id'            => 'sidebar-3',
+		'description'   => esc_html__( 'Espacio para ara poner un banner central debajo del Reel de video', 'imgd' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar Linea columnas', 'imgd' ),
 		'id'            => 'sidebar-2',
