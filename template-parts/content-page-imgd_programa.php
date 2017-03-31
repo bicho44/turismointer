@@ -40,24 +40,21 @@ $videolink = '';
 
 		echo get_datos_video(get_the_ID());
 
-
-		if ( class_exists( 'Jetpack_RelatedPosts' ) ) {
-		      echo do_shortcode( '[jetpack-related-posts]' );
+		if ( function_exists( 'sharing_display' ) ) {
+			sharing_display( '', true );
 		}
-		?>
+
+		if ( class_exists( 'Jetpack_Likes' ) ) {
+			$custom_likes = new Jetpack_Likes;
+			echo $custom_likes->post_likes( '' );
+		}
+?>
+<hr>
 		</div><!-- .entry-content -->
 
 		<?php if ( get_edit_post_link() ) : ?>
 			<footer class="entry-footer">
 				<?php
-				if ( function_exists( 'sharing_display' ) ) {
-					sharing_display( '', true );
-				}
-
-				if ( class_exists( 'Jetpack_Likes' ) ) {
-					$custom_likes = new Jetpack_Likes;
-					echo $custom_likes->post_likes( '' );
-				}
 
 				edit_post_link(
 				sprintf(
@@ -70,6 +67,11 @@ $videolink = '';
 		);
 		?>
 	</footer><!-- .entry-footer -->
+	<?php
+		if ( class_exists( 'Jetpack_RelatedPosts' ) ) {
+		      echo do_shortcode( '[jetpack-related-posts]' );
+		}
+	?>
 <?php endif; ?>
 </article><!-- #post-## -->
 
