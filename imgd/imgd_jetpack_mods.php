@@ -4,7 +4,7 @@
 * Eliminar el Publizite del fondo del contenido para luego cambiarlo de lugar
 * y poder ponerlo en donde quiera
 *
-* @link: https:*jetpack.com/2013/06/10/moving-sharing-icons/
+* @link: https://jetpack.com/2013/06/10/moving-sharing-icons/
 *
 * Agregar este código en el template que se vaya a utilizar
 *
@@ -31,7 +31,7 @@ add_action( 'loop_start', 'jptweak_remove_share' );
 /**
 * Sacar el "Related Post" de debajo del contenido
 *
-* @link: https:*jetpack.com/support/related-posts/customize-related-posts/
+* @link: https://jetpack.com/support/related-posts/customize-related-posts/
 *
 * Luego usar este código para ponerlo donde quiera
 * <?php
