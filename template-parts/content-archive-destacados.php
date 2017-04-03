@@ -7,7 +7,7 @@
  * @package IMGD porcitions
  */
 $postType = get_post_type(  );
-piklist::pre($postType);
+//piklist::pre($postType);
 
 ?>
 
@@ -17,6 +17,10 @@ if (has_post_thumbnail()) {?>
 
     <a href="<?php the_permalink(); ?>">
           <?php  /* @todo Cambiar para que la imagen sea responsive */
+            if($postType==='imgd_programa'){?>
+                <i class="icon-play-circle"></i>
+            <?php }
+
             the_post_thumbnail('thumbnail', array('class'=>'img-circle align-center img-responsive'));
             ?>
     </a>
@@ -33,7 +37,7 @@ if ($notitle !== '0' ) { ?>
         ?>
         <h3 class="align-center">
           <a href="<?php the_permalink(); ?>" rel="bookmark">
-           <?php shortentext(get_the_title(), 35);?>
+           <?php shortentext(get_the_title(), 38);?>
          </a>
        </h3>
         <?php
