@@ -18,7 +18,7 @@ if (has_post_thumbnail()) {?>
     <a href="<?php the_permalink(); ?>">
           <?php  /* @todo Cambiar para que la imagen sea responsive */
             if($postType==='imgd_programa'){?>
-                <i class="icon-play-circle"></i>
+                <i class="icon-play-circle icon-3x align-right"></i>
             <?php }
 
             the_post_thumbnail('thumbnail', array('class'=>'img-circle align-center img-responsive'));
