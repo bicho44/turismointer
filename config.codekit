@@ -219,6 +219,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/paises\/marruecos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1732,
+		"inputAbbreviatedPath": "\/assets\/images\/paises\/marruecos.png",
+		"outputAbbreviatedPath": "\/assets\/images\/paises\/marruecos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/paises\/uruguay.png": {
 		"fileType": 32768,
 		"ignore": 0,
