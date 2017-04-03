@@ -6,6 +6,8 @@
  *
  * @package IMGD porcitions
  */
+$postType = get_post_type(  );
+piklist::pre($postType);
 
 ?>
 
