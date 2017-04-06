@@ -1224,6 +1224,12 @@ animation:         KEYFRAME-NAME 5s infinite;
   background-position: left center;
   background-size: 25px 25px;
 }
+.imgd_programa {
+  padding-left: 30px;
+  background: url('../images/paises/marruecos.png') no-repeat;
+  background-position: left center;
+  background-size: 25px 25px;
+}
 #totop {
   color: rgba(255, 255, 255, 0.4);
   background-color: rgba(152, 95, 13, 0.2);
