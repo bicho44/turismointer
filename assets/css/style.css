@@ -6663,9 +6663,17 @@ animation:         KEYFRAME-NAME 5s infinite;
   background-position: left center;
   background-size: 25px 25px;
 }
-.imgd_programa {
-  background-position: right center;
-  background-size: 25px 25px;
+.imgd_programa::before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 46.8px;
+  content: "\f01d";
+  color: rgba(0, 0, 0, 0.5);
+  display: inline;
+  z-index: 1000;
+  vertical-align: top;
+  top: 10%;
+  right: 10%;
+  position: absolute;
 }
 #totop {
   color: rgba(255, 255, 255, 0.4);

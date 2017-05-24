@@ -1224,7 +1224,9 @@ animation:         KEYFRAME-NAME 5s infinite;
   background-position: left center;
   background-size: 25px 25px;
 }
-.imgd_programa {
+.imgd_programa::before {
+  font-family: 'FontAwesome', sans-serif;
+  content: "\f01d";
   background-position: right center;
   background-size: 25px 25px;
 }

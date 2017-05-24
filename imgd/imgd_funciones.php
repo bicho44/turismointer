@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Jquery enqueue
  * @package: IMGD Framework
@@ -42,6 +41,8 @@ function imgdigital_scripts() {
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );
     }
+
+    wp_enqueue_style( 'imgd-google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:300,700|Open+Sans+Condensed:300,700', false ); 
 
 	wp_enqueue_style( 'imgdigital-style', get_template_directory_uri()."/assets/css/style.css");
 
@@ -466,3 +467,13 @@ function wpdocs_custom_taxonomies_terms_links() {
     }
     return implode( '', $out );
 }
+
+
+
+/*function to add async to all scripts*/
+function js_async_attr($tag){
+
+# Add async to all remaining scripts
+return str_replace( ' src', ' async="async" src', $tag );
+}
+add_filter( 'script_loader_tag', 'js_async_attr', 10 );

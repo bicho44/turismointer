@@ -49,11 +49,21 @@ animation:         KEYFRAME-NAME 5s infinite;
     background-size: 25px 25px;
   }
 }
+// @TODO: Sacar la S es para el debug
 
-.imgd_programa{
-   // content:  "\f01d";
-    background-position: right center;
-    background-size: 25px 25px;
+S.imgd_programa::before{
+    font-family: 'FontAwesome', sans-serif;
+    font-size:  @font-social-size*2;
+    content:  "\f01d";
+    color: rgba(0,0,0,.5);
+    display: inline;
+
+    z-index: 1000;
+    vertical-align: top;
+    top: 10%;
+    right: 10%;
+
+    position: absolute;
 }
 
 #totop {
