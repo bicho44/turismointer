@@ -10,6 +10,7 @@ if (!isset($destacadosID)){
 */
 
 $args = array(
+  'post_type' => array('post','imgd_programa'),
   'ignore_sticky_posts'=>true,
   'post_status' => 'publish',
   'post__not_in' => $destacadosID,
