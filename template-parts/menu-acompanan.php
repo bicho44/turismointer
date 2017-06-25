@@ -4,7 +4,7 @@
   </li>
   <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/gobierno-chile-turismo-logo-w.png" alt="Turismo de Gobierno de Chile">
   </li>
-  <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/gobierno-de-rio-negro-logo.png" alt="Gobierno de Río Negro">
+  <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/rionegro-ministerio-turismo.png" alt="Ministerio de Gobierno de Río Negro">
   </li>
   <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/municipio-chile-logo-w.png" alt="Municipio de Chile">
   </li>
@@ -12,7 +12,7 @@
   </li>
   <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/turismo-chubut-logo-w.png" alt="Turismo de Chubut">
   </li>
-  <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/turismo-de-rio-negro-logo-w.png" alt="Turismo de Río Negro">
+  <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/rionegro-tienetodo-white.png" alt="Turismo de Río Negro Tiene Todo">
   </li>
   <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/acompanan/neuquen-tur-logo-w.png" alt="Turismo de Neuquén">
   </li>
