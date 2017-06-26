@@ -14,7 +14,7 @@ $args = array(
   'ignore_sticky_posts'=>true,
   'post_status' => 'publish',
   'post__not_in' => $destacadosID,
-  'posts_per_page' => 6
+  'posts_per_page' => 8
 );
 $loop = new WP_Query($args);
 ?>
