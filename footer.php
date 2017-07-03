@@ -29,6 +29,20 @@
 	</div> <!-- #wrapfooter -->
 
 <?php wp_footer(); ?>
+<script type="application/javascript">
+  (function(b, o, n, g, s, r, c) {
+    if (b[s]) return;
+    b[s] = {};
+    b[s].scriptToken = "Xy05ODc5MjkyMQ";
+    r = o.createElement(n);
+    c = o.getElementsByTagName(n)[0];
+    r.async = 1;
+    r.src = g;
+    r.id = s + n;
+    c.parentNode.insertBefore(r, c);
+  })(window, document, "script",
+  "//cdn.oribi.io/Xy05ODc5MjkyMQ/oribi.js", "ORIBI");
+</script>
 
 </body>
 </html>
