@@ -142,6 +142,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/images\/acompanan\/rionegro-ministerio-turismo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3243,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/rionegro-ministerio-turismo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/rionegro-ministerio-turismo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/acompanan\/rionegro-tienetodo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2269,
+		"inputAbbreviatedPath": "\/assets\/images\/acompanan\/rionegro-tienetodo-white.png",
+		"outputAbbreviatedPath": "\/assets\/images\/acompanan\/rionegro-tienetodo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/acompanan\/turismo-chubut-logo-w.png": {
 		"fileType": 32768,
 		"ignore": 0,
